@@ -11,7 +11,7 @@ a) Diferencias:
 3. Como he comentado antes, la capa de Aplicación en el modelo OSI está separadas de las capas de Presentación y Sesión, lo que permite una mayor especificidad en la definición de funciones.
 
 b) Ventajas y limitaciones de cada modelo:
-Modelo OSI:
+1. Modelo OSI:
   Ventajas:
     - Es un modelo teórico y estructurado, lo que facilita el aprendizaje y la comprensión de cómo funcionan las redes.
     - Divide las funciones de red en 7 capas bien definidas, permitiendo una mayor especificidad y modularidad.
@@ -21,7 +21,7 @@ Modelo OSI:
     - Algunos protocolos no se ajustan perfectamente a su estructura, lo que dificulta su adopción en redes modernas.
     - No está tan ampliamente utilizado como el modelo TCP/IP.
   
-Modelo TCP/IP:
+2. Modelo TCP/IP:
   Ventajas:
     - Es un modelo práctico, basado en protocolos reales que son ampliamente utilizados en redes modernas.
     - Es más simple, con solo 4 capas, lo que facilita su implementación.
