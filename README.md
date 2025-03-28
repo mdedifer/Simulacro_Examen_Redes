@@ -45,17 +45,30 @@ Usa protocolos:
 
 ### P3: TCP vs UDP
 * **Orientación a conexión:**
-  TCP: Protocolo orientado a conexión. Establece una conexión previa entre emisor y receptor antes de transmitir datos.
-  UDP: Es un protocolo no orientado a conexión. No requiere establecer una conexión previa.
+  - TCP: Protocolo orientado a conexión. Establece una conexión previa entre emisor y receptor antes de transmitir datos.
+  - UDP: Es un protocolo no orientado a conexión. No requiere establecer una conexión previa.
 * **Fiabilidad y control de errores:**
-  TCP: Es fiable, garantiza la entrega de datos sin errores, en orden y sin duplicados. Utiliza confirmaciones (ACK) y retransmisiones.
-  UDP: No es fiable, no garantiza la entrega de datos ni el orden. No utiliza confirmaciones ni retransmisiones.
+  - TCP: Es fiable, garantiza la entrega de datos sin errores, en orden y sin duplicados. Utiliza confirmaciones (ACK) y retransmisiones.
+  - UDP: No es fiable, no garantiza la entrega de datos ni el orden. No utiliza confirmaciones ni retransmisiones.
 * **Velocidad de entrega:**
-  TCP: Más lento debido a los mecanismos de control de errores, confirmaciones y retransmisiones. Asegura que los datos lleguen en orden.
-  UDP: Más rápido porque no tiene mecanismos de control de errores ni asegura el orden de los datos.
+  - TCP: Más lento debido a los mecanismos de control de errores, confirmaciones y retransmisiones. Asegura que los datos lleguen en orden.
+  - UDP: Más rápido porque no tiene mecanismos de control de errores ni asegura el orden de los datos.
 * **Ejemplos de aplicaciones:**
-  TCP: Aplicaciones que requieren alta fiabilidad, como: - HTTP/HTTPS (navegación web) - FTP (transferencia de archivos) - SMTP (correo electrónico)
-  UDP: Aplicaciones que priorizan la velocidad sobre la fiabilidad, como: - Streaming de video/audio - Juegos en línea - VoIP (llamadas por Internet)
+  - TCP: Aplicaciones que requieren alta fiabilidad, como: - HTTP/HTTPS (navegación web) - FTP (transferencia de archivos) - SMTP (correo electrónico)
+  - UDP: Aplicaciones que priorizan la velocidad sobre la fiabilidad, como: - Streaming de video/audio - Juegos en línea - VoIP (llamadas por Internet)
+
+### P4: Protocolo para Transferencia de Archivos 
+a) El protocolo de la capa de aplicación tradicionalmente utilizado para la transferencia de archivos en redes TCP/IP es FTP (File Transfer Protocol).
+
+b) Dos alternativas a FTP son:
+- SFTP (SSH File Transfer Protocol):
+  -  Seguridad: A diferencia de FTP, SFTP utiliza el protocolo SSH para cifrar la transferencia de datos, proporcionando una conexión segura.
+  - Funcionalidad: Ofrece autenticación robusta y protección contra ataques como la interceptación de datos.
+
+- HTTP/HTTPS:
+  - Seguridad: HTTPS (HTTP sobre SSL/TLS) cifra los datos durante la transferencia, a diferencia de FTP que envía datos en texto plano.
+  - Funcionalidad: Es más adecuado para la descarga de archivos desde servidores web y permite la integración con navegadores.
+
 
 
 28/03/25
