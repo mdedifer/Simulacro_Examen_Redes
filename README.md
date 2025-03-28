@@ -31,18 +31,19 @@ https://github.com/mdedifer/Simulacro_Examen_Redes
     - No proporciona una guía teórica tan clara como el modelo OSI.
     - Está más enfocado en protocolos específicos, lo que lo hace menos flexible para tecnologías nuevas o diferentes.
 
+---
 ### P2: Función de la Capa de Transporte
 La capa de transporte se encarga de garantizar la entrega confiable de datos entre los dispositivos de red, por lo que es una capa fundamental en ambos modelos.
-* *En OSI*, la entrega de datos es:
+* **En OSI**, la entrega de datos es:
   - En orden
   - Sin errores
   - Sin duplicados
   Usa protocolo TCP: Protocolo confiable para aplicaciones que requieren entrega precisa, como correo electrónico y transferencia de archivos.
-* *En TCP/IP*, la entrega de datos es:
+* **En TCP/IP**, la entrega de datos es:
 Usa protocolos:
   - TCP, al igual que en OSI
   - UDP: Protocolo no confiable, pero rápido, utilizado en aplicaciones como streaming de video y juegos en línea.
-
+---
 ### P3: TCP vs UDP
 * **Orientación a conexión:**
   - TCP: Protocolo orientado a conexión. Establece una conexión previa entre emisor y receptor antes de transmitir datos.
@@ -56,11 +57,11 @@ Usa protocolos:
 * **Ejemplos de aplicaciones:**
   - TCP: Aplicaciones que requieren alta fiabilidad, como: - HTTP/HTTPS (navegación web) - FTP (transferencia de archivos) - SMTP (correo electrónico)
   - UDP: Aplicaciones que priorizan la velocidad sobre la fiabilidad, como: - Streaming de video/audio - Juegos en línea - VoIP (llamadas por Internet)
-
+---
 ### P4: Protocolo para Transferencia de Archivos 
 a) El protocolo de la capa de aplicación tradicionalmente utilizado para la transferencia de archivos en redes TCP/IP es FTP (File Transfer Protocol).
 
-b) Dos alternativas a FTP son:
+b) Dos alternativas más seguras a FTP son:
 - SFTP (SSH File Transfer Protocol):
   -  Seguridad: A diferencia de FTP, SFTP utiliza el protocolo SSH para cifrar la transferencia de datos, proporcionando una conexión segura.
   - Funcionalidad: Ofrece autenticación robusta y protección contra ataques como la interceptación de datos.
@@ -68,7 +69,7 @@ b) Dos alternativas a FTP son:
 - HTTP/HTTPS:
   - Seguridad: HTTPS (HTTP sobre SSL/TLS) cifra los datos durante la transferencia, a diferencia de FTP que envía datos en texto plano.
   - Funcionalidad: Es más adecuado para la descarga de archivos desde servidores web y permite la integración con navegadores.
-
-
+---
+### P5: Resolución de Nombres en DNS
 
 28/03/25
