@@ -3,15 +3,15 @@
 https://github.com/mdedifer/Simulacro_Examen_Redes
 
 ### P1: Modelos OSI y TCP/IP
-a) Diferencias:
+**a) Diferencias:**
 1.	Número de capas: El modelo OSI tiene 7 capas: (Física, Enlace de datos, Red, Transporte, Sesión, Presentación y Aplicación) mientras que el modelo TCP/IP tiene 4 (Acceso a red, Internet, Transporte y Aplicación). Con esto concluimos que el TCP/IP es más sencillo, teniendo agrupadas varias capas de OSI en una sola, como pueden ser:
   -	Capa de Aplicación (TCP/IP)=Capa de Aplicación + Capa de Presentación + Capa de Sesión (OSI)
   -	Capa de Acceso a Red (TCP/IP)= Capa de Enlace de Datos + Capa Física (OSI)
 2. En cuanto a la orientación, el modelo OSI es más completo y teórico, pero TCP/IP es más práctico, basado en protocolos usados en redes reales y por ello mucho más utilizado que el OSI.
 3. Como he comentado antes, la capa de Aplicación en el modelo OSI está separadas de las capas de Presentación y Sesión, lo que permite una mayor especificidad en la definición de funciones.
 
-b) Ventajas y limitaciones de cada modelo:
-1. Modelo OSI:
+**b) Ventajas y limitaciones de cada modelo:**
+1. **Modelo OSI:**
   * Ventajas:
     - Es un modelo teórico y estructurado, lo que facilita el aprendizaje y la comprensión de cómo funcionan las redes.
     - Divide las funciones de red en 7 capas bien definidas, permitiendo una mayor especificidad y modularidad.
@@ -21,7 +21,7 @@ b) Ventajas y limitaciones de cada modelo:
     - Algunos protocolos no se ajustan perfectamente a su estructura, lo que dificulta su adopción en redes modernas.
     - No está tan ampliamente utilizado como el modelo TCP/IP.
   
-2. Modelo TCP/IP:
+2. **Modelo TCP/IP:**
   * Ventajas:
     - Es un modelo práctico, basado en protocolos reales que son ampliamente utilizados en redes modernas.
     - Es más simple, con solo 4 capas, lo que facilita su implementación.
@@ -44,16 +44,16 @@ Usa protocolos:
   - UDP: Protocolo no confiable, pero rápido, utilizado en aplicaciones como streaming de video y juegos en línea.
 
 ### P3: TCP vs UDP
-* *Orientación a conexión:*
+* **Orientación a conexión:**
   TCP: Protocolo orientado a conexión. Establece una conexión previa entre emisor y receptor antes de transmitir datos.
   UDP: Es un protocolo no orientado a conexión. No requiere establecer una conexión previa.
-* *Fiabilidad y control de errores:*
+* **Fiabilidad y control de errores:**
   TCP: Es fiable, garantiza la entrega de datos sin errores, en orden y sin duplicados. Utiliza confirmaciones (ACK) y retransmisiones.
   UDP: No es fiable, no garantiza la entrega de datos ni el orden. No utiliza confirmaciones ni retransmisiones.
-* *Velocidad de entrega:*
+* **Velocidad de entrega:**
   TCP: Más lento debido a los mecanismos de control de errores, confirmaciones y retransmisiones. Asegura que los datos lleguen en orden.
   UDP: Más rápido porque no tiene mecanismos de control de errores ni asegura el orden de los datos.
-* *Ejemplos de aplicaciones:*
+* **Ejemplos de aplicaciones:**
   TCP: Aplicaciones que requieren alta fiabilidad, como: - HTTP/HTTPS (navegación web) - FTP (transferencia de archivos) - SMTP (correo electrónico)
   UDP: Aplicaciones que priorizan la velocidad sobre la fiabilidad, como: - Streaming de video/audio - Juegos en línea - VoIP (llamadas por Internet)
 
