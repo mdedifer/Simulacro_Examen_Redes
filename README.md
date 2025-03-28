@@ -1,6 +1,8 @@
 # Simulacro_Examen_Redes
+
 https://github.com/mdedifer/Simulacro_Examen_Redes
-#### P1: Modelos OSI y TCP/IP
+
+### P1: Modelos OSI y TCP/IP
 a) Diferencias:
 1.	Número de capas: El modelo OSI tiene 7 capas: (Física, Enlace de datos, Red, Transporte, Sesión, Presentación y Aplicación) mientras que el modelo TCP/IP tiene 4 (Acceso a red, Internet, Transporte y Aplicación). Con esto concluimos que el TCP/IP es más sencillo, teniendo agrupadas varias capas de OSI en una sola, como pueden ser:
   -	Capa de Aplicación (TCP/IP)=Capa de Aplicación + Capa de Presentación + Capa de Sesión (OSI)
@@ -29,6 +31,22 @@ Modelo TCP/IP:
     - No proporciona una guía teórica tan clara como el modelo OSI.
     - Está más enfocado en protocolos específicos, lo que lo hace menos flexible para tecnologías nuevas o diferentes.
 
+### P2: Función de la Capa de Transporte
+La capa de transporte se encarga de garantizar la entrega confiable de datos entre los dispositivos de red, por lo que es una capa fundamental en ambos modelos.
+* *En OSI*, la entrega de datos es:
+  - En orden
+  - Sin errores
+  - Sin duplicados
+  Usa protocolo TCP: Protocolo confiable para aplicaciones que requieren entrega precisa, como correo electrónico y transferencia de archivos.
+* *En TCP/IP*, la entrega de datos es:
+Usa protocolos:
+  - TCP, al igual que en OSI
+  - UDP: Protocolo no confiable, pero rápido, utilizado en aplicaciones como streaming de video y juegos en línea.
+
+### P3: TCP vs UDP
+* *Orientación a conexión:*
 
 
 28/03/25
+
+ilugil
