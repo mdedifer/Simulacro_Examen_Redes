@@ -45,8 +45,17 @@ Usa protocolos:
 
 ### P3: TCP vs UDP
 * *Orientación a conexión:*
+  TCP: Protocolo orientado a conexión. Establece una conexión previa entre emisor y receptor antes de transmitir datos.
+  UDP: Es un protocolo no orientado a conexión. No requiere establecer una conexión previa.
+* *Fiabilidad y control de errores:*
+  TCP: Es fiable, garantiza la entrega de datos sin errores, en orden y sin duplicados. Utiliza confirmaciones (ACK) y retransmisiones.
+  UDP: No es fiable, no garantiza la entrega de datos ni el orden. No utiliza confirmaciones ni retransmisiones.
+* *Velocidad de entrega:*
+  TCP: Más lento debido a los mecanismos de control de errores, confirmaciones y retransmisiones. Asegura que los datos lleguen en orden.
+  UDP: Más rápido porque no tiene mecanismos de control de errores ni asegura el orden de los datos.
+* *Ejemplos de aplicaciones:*
+  TCP: Aplicaciones que requieren alta fiabilidad, como: - HTTP/HTTPS (navegación web) - FTP (transferencia de archivos) - SMTP (correo electrónico)
+  UDP: Aplicaciones que priorizan la velocidad sobre la fiabilidad, como: - Streaming de video/audio - Juegos en línea - VoIP (llamadas por Internet)
 
 
 28/03/25
-
-ilugil
